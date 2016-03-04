@@ -1,14 +1,38 @@
-/* All style should go in this document. */
-  body{
-  	padding-top:65px;
- background-color: #616161;
+ body{
+  	
+    background-color: light-gray;
+    font-family: 'Roboto', sans-serif;
 }
-
-#toprow{
-	background-color: #42A5F5;
-	border-radius: 10px;
-	margin: 5px;
+.toprow{
+	background-color: #B2EBF2;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 10px; margin-right: 10px;
+	box-shadow: 0px 3px 5px #888888;
+	margin-top: 65px;
 }
 .spacer{
-	margin-top: 70px;
+	margin-top: 100px;
+}
+
+.social-btns{
+	padding:10px;
+}	
+.btn-git{
+	background-color: #8BC34A;
+	color:#ffffff;
+	border-radius: 5px;
+
+}
+.btn-facebook{
+	background-color: #3b5998;
+	color: #ffffff;
+}
+.languages{
+	background-color: #B2EBF2;
+	border-radius: 5px;
+	padding: 20px;
+	margin-left: 10px; margin-right: 10px;
+	box-shadow: 0px 3px 5px #888888;
+
 }
