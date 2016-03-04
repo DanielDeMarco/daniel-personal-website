@@ -1,6 +1,14 @@
 /* All style should go in this document. */
-
-.spacer{
-	margin-top: 500px;
+  body{
+  	padding-top:65px;
+ background-color: #616161;
 }
 
+#toprow{
+	background-color: #42A5F5;
+	border-radius: 10px;
+	margin: 5px;
+}
+.spacer{
+	margin-top: 70px;
+}
