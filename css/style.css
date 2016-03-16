@@ -1,47 +1,146 @@
- body{
-  	
-    background-color: #eee;
-    font-family: 'Roboto', sans-serif;
-}
-.toprow{
-	background-color: #fff;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px; 
-	padding: 10px;
-	margin-left: 10px; margin-right: 10px;
-	box-shadow:0 1px 3px rgba(0,0,0, 0.12),
-               0 1px 2px rgba(0,0,0, 0.24); 
-	margin-top: 65px;
-}
-.spacer{
-	margin-top: 100px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url()'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300' rel='stylesheet' type='text/css');
+
+body {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/Dark-crisp-and-subtle-tiny-black-lines-Tileable-Patterns.jpg);
+  font-family: 'Roboto', sans serif;
+  padding: 20px;
 }
 
-.social-btns{
-	padding:10px;
-}	
-.btn-git{
-	background-color: #8BC34A;
-	color:#ffffff;
-	border-radius: 5px;
-
+h1 {
+  padding-top: 9px;
+  margin: 0px;
 }
-.btn-facebook   {background-color: #3b5998;
-	color: #ffffff;}
 
-.languages{
-	background-color: #fff;
-	border-top-left-radius: 2px;
-    border-top-right-radius: 2px; 
-	padding: 20px;
-	margin-left: 10px; margin-right: 10px;
-	box-shadow:0 1px 3px rgba(0,0,0, 0.12),
-               0 1px 2px rgba(0,0,0, 0.24); 
+p {
+  padding-top: 10px;
+}
 
+.float-banner {
+  margin-top: -10px;
+  padding-bottom: 5px;
 }
-.no-bullets{
-	list-style-type:none; 
+
+.education-layer {
+  background-color: #F4D03F;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.skill-title{
-	color:blue;
+
+.education-pane {
+  background-color: #D35400;
+  border-radius: 3px;
+  color: white;
+  font-size: 1.1em;
+}
+
+.quick-info-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.main-bio-pane {
+  background-color: #D64541;
+  overflow: hidden;
+  border-radius: 3px;
+  color: white;
+}
+
+.restrict-width {
+  max-width: 100%;
+}
+
+.lang-pane {
+  background-color: #ecf0f1;
+  border-radius: 3px;
+}
+
+.header-bar {
+  background-color: #446CB3;
+  color: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 2em;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  line-height: 60px;
+}
+
+.header-bar.hydra-header {
+  background-color: #3FC380;
+}
+
+.hydra-pane {
+  background-color: #ecf0f1;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card {
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.pane-pad {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lang-graphic {
+  padding-top: 10px;
+}
+
+.lang-tagbox {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.tag {
+  padding: 5px;
+  margin: 3px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 10px 5px 10px 5px;
+  box-shadow: -3px 3px 5px #888;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-shadow: 3px, 3px, #fff;
+}
+
+#java {
+  background-color: #C0272D;
+}
+
+#android {
+  background-color: #8BC540;
+}
+
+#python {
+  background-color: #F9BF3B;
+}
+
+#javascript {
+  background-color: #E87E04;
+}
+
+#arduino {
+  background-color: #89C4F4;
+}
+
+#html {
+  background-color: #EC644B;
+}
+
+#css {
+  background-color: #336E7B;
 }
