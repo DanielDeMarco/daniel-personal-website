@@ -4,7 +4,7 @@
 body {
   background-color: #F5F5F5;
   font-family: 'Roboto', sans serif;
-  padding: 20px;
+  
 }
 
 h1 {
@@ -16,13 +16,13 @@ p {
   padding-top: 10px;
   font-weight: 500;
 }
-p:nth-child(1){
+p:nth-child(1) {
   font-weight: 500;
 }
-p:nth-child(2){
+p:nth-child(2) {
   font-weight: 400;
 }
-p:nth-child(3){
+p:nth-child(3) {
   font-weight: 300;
 }
 
