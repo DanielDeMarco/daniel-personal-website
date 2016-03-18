@@ -1,10 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
 
+
+.vertical-align {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/Dark-crisp-and-subtle-tiny-black-lines-Tileable-Patterns.jpg);
   font-family: 'Roboto', sans serif;
   padding: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -14,22 +22,23 @@ h1 {
 
 p {
   padding-top: 10px;
+
 }
 
 .float-banner {
-  margin-top: -10px;
+  margin-top: 10%;
   padding-bottom: 5px;
 }
 
 .education-layer {
-  background-color: #F4D03F;
+  background-color: #DED0B6;
   border-radius: 3px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .education-pane {
-  background-color: #D35400;
+  background-color: #3D78D4;
   border-radius: 3px;
   color: white;
   font-size: 1.1em;
@@ -39,13 +48,17 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
+
+
 }
 
 .main-bio-pane {
-  background-color: #D64541;
+  background-color: #0D3BCC;
   overflow: hidden;
   border-radius: 3px;
   color: white;
+
+
 }
 
 .restrict-width {
@@ -69,10 +82,14 @@ p {
   font-weight: 600;
   letter-spacing: 1.5px;
   line-height: 60px;
+
 }
 
+
+
+
 .header-bar.hydra-header {
-  background-color: #3FC380;
+  background-color: #0099FF;
 }
 
 .hydra-pane {
@@ -95,6 +112,7 @@ p {
 
 .lang-graphic {
   padding-top: 10px;
+  width: 20vw;
 }
 
 .lang-tagbox {
@@ -144,3 +162,4 @@ p {
 #css {
   background-color: #336E7B;
 }
+
