@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-  padding-top: 9px;
+  padding0.
+  -top: 9px;
   margin: 0px;
 }
 .navbar{
@@ -189,3 +190,21 @@ i{
 #css {
   background-color: #336E7B;
 }
+#cv-btn {
+  margin-top: 7px;
+  padding: 10px, 10px, 30px, 30px;
+}
+#CV p{
+  font-weight: 300;
+  text-align: left;
+}
+#CV h4{
+  text-decoration: underline;
+  font-weight: 500;
+  text-align: left;
+}
+#CV li{
+  font-weight: 300;
+  text-align: left;
+}
+

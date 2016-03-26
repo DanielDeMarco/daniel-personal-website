@@ -8,159 +8,246 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/wow.min.js"></script>
+
 </head>
-  <body>
+<body>
 
-   <div class="navbar navbar-default">
-    <div class="container-fluid card">
-        <a class="navbar-brand pull-left" href="#">     <h3>Daniel DeMarco</h3></a>
-         <a class="navbar-brand pull-right" href="#"> <h3>Software Engineer</h3></a>
-      
-    </div>
-  </div>
+ <div class="navbar navbar-default">
+  <div class="container-fluid card">
+    <a class="navbar-brand pull-left" href="#"><h3>Daniel DeMarco</h3></a>
+    <button type="button" id="cv-btn" class="btn btn-info btn-md pull-right" data-toggle="modal" data-target="#myModal">Resume</button>
+   
+            <!-- Trigger the modal with a button -->
+        
 
-    <div class="container">
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
 
-      <div class="row">
-        <div class = "col-sm-6">
-          <div class="main-bio-pane pane-pad card">
-            <img class= "img-resonsive restrict-width card" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/profilepicture-min.jpg" alt="" />
-            <div class="col-md-6 card">
-              <h1>Daniel DeMarco</h1>
-              <p>Software Developer</p>
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Daniel DeMarco</h4>
+              </div>
+              <div class="modal-body">
+                <!-- Tradition CV -->
+                <div id="CV">
+                  <br />
+                  <h4>Objective</h4>
+                  <p>Self-motivated learner, who seeks challenging analytical, and technical problems in the computer science and engineering field. Inspired to gain well rounded knowledge, understanding, and experience through practical applications.</p>
+
+                  <h4>Relevant Courses</h4>
+                  <ul>
+                    <li>Data Structure</li>
+                    <li>Software Engineering</li>
+                    <li>Algorithms and Complexity</li>
+                  </ul>
+
+                  <h4>Skills</h4>
+                  <ul>
+                    <li><strong>Software:</strong>  Eclipse, LTspice, LogicWorks, Blender3D, Solidworks, Android Studio</li>
+                    <li><strong>Programming Languages:</strong> Java, Android, Arduino, MATLAB, HTML/CSS</li>
+                    <li><strong>Hardware:</strong> Discrete Logic Design, Microcontrollers, Robotics, Automation</li>
+                  </ul>
+                  <hr />
+                  <h4>IEEE UConn: Microsoft Robotics Competition: </h4>
+                  <ul>
+                    <li>Led a team of four, designed, constructed, and programed a microcontroller based robot</li>
+                    <li>Attended weekly meetings, learned robotics control programming, and expanded on electronics fundamentals
+                    </li>
+                    <li>Applied learned skills, won 1st place for the fastest autonomous solution to an unknown maze</li>
+                  </ul>
+                  <h4>3DPC: 3D Printing Club</h4>
+                  <ul>
+                    <li>Attends weekly club meetings and workshops, to learn 3D modeling, design, and printing technologies.
+                    </li>
+                  </ul>
+                  <hr />
+                  <h4>UConnBus App</h4>
+                  <ul>
+                    <li> Developing Android mobile application for UConn Students, to streamline transportation information
+                    </li>
+                    <li>Wrote algorithms for parsing, extracting and formatting web data into a practical form
+                    </li>
+                    <li>Designed an uncluttered, easy to use interface that prioritizes finding information efficiently 
+                    </li>
+                  </ul>
+
+                  <h4>Hydra Prosthetic Arm </h4>
+                  <ul>
+                    <li>Works with a team of students to design electronics, hardware and software for a fully 3D printed prosthetic.
+                    </li>
+                    <li>Developing control algorithms to translate EMG input signals into organic motion
+                    </li>
+                    <li>Employs design, development, testing, and revision under time and budget constraints
+                    </li>
+                    <li>Communicates and listens effectively to solve novel problems in a team environment to achieve goals.
+                    </li>
+                  </ul>
+
+
+
+                </div>
+                                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
             </div>
-            <div class ="col-md-6">
 
-             <p> I am a student at the University of Connecticut looking for exciting opportunities as a software developer</p>
-           </div>
-         </div><!--end Bio Pane -->
-
-         <div class="row hydra-pane pane-pad card wow fadeInUp">
-           <div class = "header-bar hydra-header" id="contact-bar"> <h1>Contact Me</h1> </div>
-           <div class="icon-pane">
-            <a class="icon-link" href="https://github.com/DanielDeMarco/">
-              <i class="fa fa-github fa-3x"></i>
-            </a>
-            <a class="icon-link" href="https://github.com/DanielDeMarco/">
-              <i class="fa fa-facebook fa-3x"></i>
-            </a>
-            <a class="icon-link" href="https://github.com/DanielDeMarco/">
-              <i class="fa fa-envelope fa-3x"></i>
-            </a>
           </div>
-          
         </div>
 
+      
 
-        <div class="row hydra-pane pane-pad card wow fadeInUp">
-          <div class = "header-bar hydra-header"> <h1>Hydra Prosthetic</h1> </div>
-          <div class="col-lg-4">
-            <img class = "img-responsive img-rounded float-banner" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/HydraLogo.jpg" alt="" />
-          </div>
-          <div class="col-lg-8">
-            <p>Works with a team of students to design electronics, hardware and software for a fully 3D printed prosthetic.</p>
+  </div>
+</div>
 
-            <p>Developing control algorithms to translate EMG input signals into organic motion
-              Employs design, development, testing, and revision under time and budget constraints.</p>
+<div class="container">
 
-            <p>Communicates and listens effectively to solve novel problems in a team environment to achieve goals.</p>
-            </div>
+  <div class="row">
+    <div class = "col-sm-6">
+      <div class="main-bio-pane pane-pad card">
+        <img class= "img-resonsive restrict-width card" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/profilepicture-min.jpg" alt="" />
+        <div class="col-md-6 card">
+          <h1>Daniel DeMarco</h1>
+          <p>Software Developer</p>
+        </div>
+        <div class ="col-md-6">
 
-          </div>
+         <p> I am a student at the University of Connecticut looking for exciting opportunities as a software developer</p>
+       </div>
+     </div><!--end Bio Pane -->
 
+     <div class="row hydra-pane pane-pad card wow fadeInUp">
+       <div class = "header-bar hydra-header" id="contact-bar"> <h1>Contact Me</h1> </div>
+       <div class="icon-pane">
+        <a class="icon-link" target="_blank" href="https://github.com/DanielDeMarco/">
+          <i class="fa fa-github fa-3x"></i>
+        </a>
+        <a class="icon-link"  target="_blank" href="https://www.facebook.com/xDanielDeMarcox">
+          <i class="fa fa-facebook fa-3x"></i>
+        </a>
+        <a class="icon-link" target="_blank" href="mailto:danielanthonydemarco@gmail.com">
+          <i class="fa fa-envelope fa-3x"></i>
+        </a>
 
-          <div class="row hydra-pane pane-pad card wow fadeInUp">
-            <div class = "header-bar hydra-header"> <h1>UConn Bus App</h1> </div>
-            <div class="col-lg-4">
-              <img class = "card img-responsive img-rounded float-banner" src="assets/UconnBusApp.png" alt="" />
-            </div>
-            <div class="col-lg-8">
-              <p>Developing Android mobile application for UConn Students, to streamline transportation information</p>
-
-              <p> Wrote algorithms for parsing, extracting and formatting web data into a practical form
-              </p>
-              <p>
-                Designed an uncluttered, easy to use interface that prioritizes finding information efficiently
-              </p>
-            </div>
-
-          </div>
-
-        </div><!--End Col-->
-
-        <div class = "col-sm-3">
-          <div class="lang-pane card pane-pad wow fadeInUp">
-            <div class="header-bar card">Skills</div>
-            <img class="center-block img-responsive lang-graphic" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/LangWheelDropShadow.png" />
-            <div class="lang-tagbox">
-              <span class="tag" id="java">Java</span>
-              <span class="tag" id="android">Android </span>
-              <span class="tag" id="python">Python</span>
-              <span class="tag" id="javascript">JavaScript</span>
-              <span class="tag" id="arduino">Arduino</span>
-              <span class="tag" id="html">HTML</span>
-              <span class="tag" id="css">CSS</span>
-            </div>
-          </div>
-          <div class="card pane-pad wow fadeInUp" id="java">
-            <div class="card  ">
-              <img class="card center-block img-responsive" src="assets/3DPrinter.jpg" />
-            </div>
-            <div class="quick-info-text">
-              <h3>3D Printing</h3>
-              <p>One of the most fun projects I have worked on recently is building my own 3D Printer</p>
-            </div>
-          </div>
-          <div class="card pane-pad wow fadeInUp" id="android">
-            <div class="card  ">
-              <img class="card center-block img-responsive" src="assets/guitar.jpg" />
-            </div>
-            <div class="quick-info-text">
-              <h3>Music</h3>
-              <p>I've been playing guitar for almost a decade and playing music is a big part of my life. I always love a chance to be creative.</p>
-            </div>
-          </div>
-
-        </div> <!--End Col-->
-
-        <div class = "col-sm-3">
-
-          <div class="card pane-pad wow fadeInUp" id="arduino">
-            <div class="card ">
-              <img class="card center-block img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/UconnLogo.jpg" />
-            </div>
-            <div class="quick-info-text">
-              <h3>Education</h3>
-              <p>Studying Computer Science and Engineering at the University of Connecticut</p>
-            </div>
-          </div>
-
-          <div class="card pane-pad wow fadeInUp" id="python">
-            <div class="card ">
-              <img class="card center-block img-responsive" src="assets/Construction.jpg" />
-            </div>
-            <div class="quick-info-text">
-              <h3>Work</h3>
-              <p>Project Manager for Honey-Do Home Improvement LLC</p>
-            </div>
-          </div>
-          <div class="card pane-pad wow fadeInUp" id="html">
-            <div class="card ">
-              <img class="card center-block img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/UconnLogo.jpg" />
-            </div>
-            <div class="quick-info-text">
-              <h3>Education</h3>
-              <p>Studying Computer Science and Engineering at the University of Connecticutr</p>
-            </div>
-          </div>
-        </div><!--End Col-->
-      </div><!--End Row-->
-
-    </div> <!--End Container-->
-    <script>
-      new WOW().init();
-    </script>
+</div>
+    </div>
 
 
-    </html>
+    <div class="row hydra-pane pane-pad card wow fadeInUp">
+      <div class = "header-bar hydra-header"> <h1>Hydra Prosthetic</h1> </div>
+      <div class="col-lg-4">
+        <img class = "img-responsive img-rounded float-banner" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/HydraLogo.jpg" alt="" />
+      </div>
+      <div class="col-lg-8">
+        <p>Works with a team of students to design electronics, hardware and software for a fully 3D printed prosthetic.</p>
+
+        <p>Developing control algorithms to translate EMG input signals into organic motion
+          Employs design, development, testing, and revision under time and budget constraints.</p>
+
+          <p>Communicates and listens effectively to solve novel problems in a team environment to achieve goals.</p>
+        </div>
+
+      </div>
+
+
+      <div class="row hydra-pane pane-pad card wow fadeInUp">
+        <div class = "header-bar hydra-header"> <h1>UConn Bus App</h1> </div>
+        <div class="col-lg-4">
+          <img class = "card img-responsive img-rounded float-banner" src="assets/UconnBusApp.png" alt="" />
+        </div>
+        <div class="col-lg-8">
+          <p>Developing Android mobile application for UConn Students, to streamline transportation information</p>
+
+          <p> Wrote algorithms for parsing, extracting and formatting web data into a practical form
+          </p>
+          <p>
+            Designed an uncluttered, easy to use interface that prioritizes finding information efficiently
+          </p>
+        </div>
+
+      </div>
+
+    </div><!--End Col-->
+
+    <div class = "col-sm-3">
+      <div class="lang-pane card pane-pad wow fadeInUp">
+        <div class="header-bar card">Skills</div>
+        <img class="center-block img-responsive lang-graphic" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/LangWheelDropShadow.png" />
+        <div class="lang-tagbox">
+          <span class="tag" id="java">Java</span>
+          <span class="tag" id="android">Android </span>
+          <span class="tag" id="python">Python</span>
+          <span class="tag" id="javascript">JavaScript</span>
+          <span class="tag" id="arduino">Arduino</span>
+          <span class="tag" id="html">HTML</span>
+          <span class="tag" id="css">CSS</span>
+        </div>
+      </div>
+      <div class="card pane-pad wow fadeInUp" id="java">
+        <div class="card  ">
+          <img class="card center-block img-responsive" src="assets/3DPrinter.jpg" />
+        </div>
+        <div class="quick-info-text">
+          <h3>3D Printing</h3>
+          <p>One of the most fun projects I have worked on recently is building my own 3D Printer</p>
+        </div>
+      </div>
+      <div class="card pane-pad wow fadeInUp" id="android">
+        <div class="card  ">
+          <img class="card center-block img-responsive" src="assets/guitar.jpg" />
+        </div>
+        <div class="quick-info-text">
+          <h3>Music</h3>
+          <p>I've been playing guitar for almost a decade and playing music is a big part of my life. I always love a chance to be creative.</p>
+        </div>
+      </div>
+
+    </div> <!--End Col-->
+
+    <div class = "col-sm-3">
+
+      <div class="card pane-pad wow fadeInUp" id="arduino">
+        <div class="card ">
+          <img class="card center-block img-responsive" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/432847/UconnLogo.jpg" />
+        </div>
+        <div class="quick-info-text">
+          <h3>Education</h3>
+          <p>Studying Computer Science and Engineering at the University of Connecticut</p>
+        </div>
+      </div>
+
+      <div class="card pane-pad wow fadeInUp" id="python">
+        <div class="card ">
+          <img class="card center-block img-responsive" src="assets/Construction.jpg" />
+        </div>
+        <div class="quick-info-text">
+          <h3>Work</h3>
+          <p>Project Manager for Honey-Do Home Improvement LLC</p>
+        </div>
+      </div>
+      <div class="card pane-pad wow fadeInUp" id="html">
+        <div class="card ">
+          <img class=" center-block img-responsive" src="assets/a100Logo.png" />
+        </div>
+        <div class="quick-info-text">
+          <h3>A100 apprenticeship program</h3>
+          <p>Working with other college students and graduates to hone team software development skills</p>
+          <p>Learning new technologies like Meteor.js and MongoDB</p>
+        </div>
+      </div>
+    </div><!--End Col-->
+  </div><!--End Row-->
+
+</div> <!--End Container-->
+<script>
+  new WOW().init();
+</script>
+
+</html>
